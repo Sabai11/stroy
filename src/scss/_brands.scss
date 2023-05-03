@@ -1,0 +1,37 @@
+.brands {
+    &__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 16px;
+    }
+
+    &__card {
+        background: #FFFFFF;
+        background: #FFFFFF;
+        /* BG/E8E9EA */
+
+        border: 1px solid #E8E9EA;
+
+        &-title {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 34px;
+            line-height: 130%;
+            /* or 44px */
+
+            display: flex;
+            align-items: center;
+
+            /* Text/2F323A */
+
+            color: #2F323A;
+            padding-top: 82px;
+
+        }
+
+        &-img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
