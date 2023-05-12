@@ -7,6 +7,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
+    scroll-behavior: smooth;
 }
 a, a:hover{
     text-decoration: none;
@@ -15,14 +16,31 @@ a, a:hover{
 ul{
     list-style-type: none;
 }
+
+.to-top-btn{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    bottom: 50px;
+    right: 50px;
+    background: #fff;
+    display: none;
+}
+
 @import './variables';
 @import './header.scss';
-@import './home.scss';
-@import './discount.scss';
+
+@import './homePage/homePage.scss';
 @import './category';
-@import './bestsellers';
+
 @import './brands';
-@import './feedback';
+
 @import './about';
 @import './footer';
 @import './popup';
+@import './delivery';
+@import './catalog/catalog';

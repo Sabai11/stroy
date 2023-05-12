@@ -43,10 +43,21 @@ $(document).ready(function () {
     $('.popup-close-btn').click(function () {
         $('.overlay').fadeOut(1000)
         $('.login-popup').fadeOut(1000)
+        $('.reg-popup').fadeOut(1000)
     })
     //Инструкция выведения всплывающего окна для регистрации
     $('.login-popup__reg').click(function(){
-        
+        $('.reg-popup').fadeIn(1000)
+        $('.login-popup').fadeOut(1000)
+    })
+
+    $(window).on('scroll', function() {
+        if($(window).scrollTop() > 500){
+            $('.to-top-btn').fadeIn()
+            $('.to-top-btn').css({'display': 'flex'})
+        } else{
+            $('.to-top-btn').fadeOut()
+        }
     })
 
 });

@@ -11,74 +11,116 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="header-top">
-            <div class="container">
-                <div class="d-flex justify-content-between align-items-center">
-                    <a href="" class="header-top__link">
-                        <img src="./src/images/header/Icon.svg" alt="pin">
-                        Москва
-                    </a>
-                    <div class="d-flex header-top__menu">
-                        <a href="" class="header-top__link">Бренды</a>
-                        <a href="" class="header-top__link">Доставка</a>
-                        <a href="" class="header-top__link">Возврат</a>
-                        <a href="" class="header-top__link">Документация</a>
-                        <a href="" class="header-top__link">Контакты</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="header-middle">
-            <div class="container">
-                <div class="d-flex justify-content-between">
-                    <a href="" class="header-middle__logo">
-                        <img src="./src/images/header/group7.png" alt="" class="header-middle__logo-img">
-                    </a>
-                    <div class="d-flex align-items-center header-middle__common">
-                        <a href="" class="header-middle__catalog">
-                            <img src="./src/images/header/Icon2.svg" alt="">
-                            Каталог
+    <header class="header" id="header">
+        <div class="header-desktop">
+            <div class="header-top">
+                <div class="container">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <a href="" class="header-top__link">
+                            <img src="./src/images/header/Icon.svg" alt="pin">
+                            Москва
                         </a>
-                        <form class="header-middle__form">
-                            <input type="text" placeholder="Поиск" class="header-middle__form-input">
-                            <button type="submit" class="header-middle__form-btn">
-                                <img src="./src/images/header/Icon5.png" alt="">
-                            </button>
-                        </form>
-                        <div class="header-middle__profile">
-                            <a href="" class="header-middle__profile-links" id="open-login-popup">
-                                <img src="./src/images/header/profile.png" alt=""
-                                    class="header-middle__profile-img"><br>
-                                Профиль
-                            </a>
-                            <a href="" class="header-middle__profile-links">
-                                <img src="./src/images/header/zakaz.png" alt="" class="header-middle__profile-img"><br>
-                                Заказы
-                            </a>
-                            <a href="" class="header-middle__profile-links">
-                                <img src="./src/images/header/korzina.png" alt=""
-                                    class="header-middle__profile-img"><br>
-                                Корзина
-                            </a>
+                        <div class="d-flex header-top__menu">
+                            <a href="" class="header-top__link">Бренды</a>
+                            <a href="./src/pages/delivery/" class="header-top__link">Доставка</a>
+                            <a href="" class="header-top__link">Возврат</a>
+                            <a href="" class="header-top__link">Документация</a>
+                            <a href="./src/pages/contacts/" class="header-top__link">Контакты</a>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="header-middle">
+                <div class="container">
+                    <div class="d-flex justify-content-between">
+                        <a href="#" class="header-middle__logo">
+                            <img src="./src/images/header/group7.png" alt="" class="header-middle__logo-img">
+                        </a>
+                        <div class="d-flex align-items-center header-middle__common">
+                            <a href="./src/pages/catalog/" class="header-middle__catalog">
+                                <img src="./src/images/header/Icon2.svg" alt="">
+                                Каталог
+                            </a>
+                            <form class="header-middle__form">
+                                <input type="text" placeholder="Поиск" class="header-middle__form-input">
+                                <button type="submit" class="header-middle__form-btn">
+                                    <img src="./src/images/header/Icon5.png" alt="">
+                                </button>
+                            </form>
+                            <div class="header-middle__profile">
+                                <a href="" class="header-middle__profile-links" id="open-login-popup">
+                                    <img src="./src/images/header/profile.png" alt=""
+                                        class="header-middle__profile-img"><br>
+                                    Профиль
+                                </a>
+                                <a href="" class="header-middle__profile-links">
+                                    <img src="./src/images/header/zakaz.png" alt=""
+                                        class="header-middle__profile-img"><br>
+                                    Заказы
+                                </a>
+                                <a href="" class="header-middle__profile-links">
+                                    <img src="./src/images/header/korzina.png" alt=""
+                                        class="header-middle__profile-img"><br>
+                                    Корзина
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="container">
+                    <nav class="d-flex justify-content-between header-bottom__nav">
+                        <a href="" class="header-bottom__link">Акции</a>
+                        <a href="" class="header-bottom__link">Строительные материалы</a>
+                        <a href="" class="header-bottom__link">Керамическая плитка</a>
+                        <a href="" class="header-bottom__link">Краски</a>
+                        <a href="" class="header-bottom__link">Сантехника</a>
+                        <a href="" class="header-bottom__link">Напольные покрытия</a>
+                        <a href="" class="header-bottom__link">Инструменты</a>
+                        <a href="" class="header-bottom__link">Обои</a>
+                        <a href="" class="header-bottom__link">Окна</a>
+                    </nav>
+                </div>
+            </div>
         </div>
-        <div class="header-bottom">
-            <div class="container">
-                <nav class="d-flex justify-content-between header-bottom__nav">
-                    <a href="" class="header-bottom__link">Акции</a>
-                    <a href="" class="header-bottom__link">Строительные материалы</a>
-                    <a href="" class="header-bottom__link">Керамическая плитка</a>
-                    <a href="" class="header-bottom__link">Краски</a>
-                    <a href="" class="header-bottom__link">Сантехника</a>
-                    <a href="" class="header-bottom__link">Напольные покрытия</a>
-                    <a href="" class="header-bottom__link">Инструменты</a>
-                    <a href="" class="header-bottom__link">Обои</a>
-                    <a href="" class="header-bottom__link">Окна</a>
-                </nav>
+        <div class="header-mobile">
+            <div class="header-top">
+                <div class="container">
+                    <div class="d-flex justify-content-between flex-wrap">
+                        <div class="burger-menu">
+                            <span class="burger-menu__line"></span>
+                        </div>
+                        <a href="../../../" class="header-top__logo">
+                            <img src="../../images/header/group7.png" alt="" class="header-top__logo-img">
+                        </a>
+                        <a href="" class="header-top__profile-links">
+                            <img src="../../images/header/korzina.png" alt="" class="header-top__profile-img"><br>
+                        </a>
+                        <form class="header-top__form">
+                            <input type="text" placeholder="Поиск" class="header-top__form-input">
+                            <button type="submit" class="header-top__form-btn">
+                                <img src="../../images/header/Icon5.png" alt="">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <a href="" class="header-bottom__link">Акции</a>
+                <a href="" class="header-bottom__link">Строительные материалы</a>
+                <a href="" class="header-bottom__link">Керамическая плитка</a>
+                <a href="" class="header-bottom__link">Краски</a>
+                <a href="" class="header-bottom__link">Сантехника</a>
+                <a href="" class="header-bottom__link">Напольные покрытия</a>
+                <a href="" class="header-bottom__link">Инструменты</a>
+                <a href="" class="header-bottom__link">Обои</a>
+                <a href="" class="header-bottom__link">Окна</a>
+                <a href="" class="header-bottom__link">Бренды</a>
+                <a href="" class="header-bottom__link">Доставка</a>
+                <a href="" class="header-bottom__link">Возврат</a>
+                <a href="" class="header-bottom__link">Документация</a>
+                <a href="" class="header-bottom__link">Контакты</a>
             </div>
         </div>
     </header>
@@ -273,7 +315,7 @@
                 </div>
             </div>
         </section>
-        <section class="bestsellers">
+        <section class="bestsellers" id="bestsellers">
             <div class="container">
                 <h2 class="bestsellers__text">Популярные товары</h2>
                 <div class="row">
@@ -615,7 +657,7 @@
         <div class="login-popup">
             Вход
             <button class="login-popup__reg">Создать учетную запись</button>
-           
+
         </div>
         <div class="reg-popup">
             Регистрация
@@ -634,6 +676,7 @@
         </div>
         <div class="popup-close-btn"></div>
     </div>
+    <a href="#header" class="to-top-btn">Вверх</a>
     <script src="./src/libs/jquery/jquery.js"></script>
     <script src="./src/libs/owl/owl.carousel.min.js"></script>
     <script src="./src/js/main.js"></script>
